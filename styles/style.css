@@ -1,0 +1,19 @@
+.flex {
+  /* untuk mengatur sifat elemen dengan value block dan inline */
+  display: flex;
+
+  /* 
+  row: disusun horizontal dari kiri ke kanan
+  row-reverse: disusun secara horizontal, dari kanan ke kiri
+  column: disusun vertikal dari atas ke bawah
+  column-reverse: disusun secara vertikal dari bawah ke atas
+   */
+  flex-direction: row;
+
+  /* 
+  nowrap: flex items akan ditempatkan dalam satu baris walau jumlahnya banyak (default)
+  wrap: flex items akan diletakan ke baris baru sehingga menjadi multiple lines
+  wrap-reverse: flex items ditempatkan dengan menambahkan baris sebelumnya
+  */
+  flex-wrap: wrap;
+}
