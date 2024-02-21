@@ -3,39 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <title>Belajar Flexbox</title>
+    <title>Spotify</title>
+
+    <!-- add my own style -->
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+
+    <!-- add my own icon bar` -->
+    <link rel="icon" href="./assets/image/spotify-logo.png" />
   </head>
   <body>
-    <main>
-      <div class="flex">
-        <div>
-          <img src="https://picsum.photos/id/1/200" alt="lorem picsum" />
+    <div class="container">
+      <nav class="wrapper">
+        <div class="brand">
+          <div>
+            <img
+              src="./assets/image/spotify-logo.png"
+              alt="Lorem Picsum"
+              class="brand-image"
+            />
+          </div>
+          <div class="brand-title">Spotify</div>
         </div>
-        <div>
-          <img src="https://picsum.photos/id/2/200" alt="lorem picsum" />
-        </div>
-        <div>
-          <img src="https://picsum.photos/id/3//200" alt="lorem picsum" />
-        </div>
-        <div>
-          <img src="https://picsum.photos/id/1/200" alt="lorem picsum" />
-        </div>
-        <div>
-          <img src="https://picsum.photos/id/2/200" alt="lorem picsum" />
-        </div>
-        <div>
-          <img src="https://picsum.photos/id/3//200" alt="lorem picsum" />
-        </div>
-      </div>
-      <div class="flex">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-      </div>
-    </main>
+        <ul class="navigation">
+          <li class="nav-list"><a href="#" class="nav-link">Artist</a></li>
+          <li class="nav-list"><a href="#" class="nav-link">Song</a></li>
+          <li class="nav-list"><a href="#" class="nav-link">Album</a></li>
+          <li class="nav-list"><a href="#" class="nav-link">Activity</a></li>
+        </ul>
+      </nav>
+    </div>
   </body>
 </html>
